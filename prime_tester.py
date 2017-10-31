@@ -1,6 +1,4 @@
-#Tests a range of numbers and sorts the primes into a list
-
-primes = []
+#Tests a range of numbers and prints results
 
 print("Please enter 2 numbers to test between.")
 y = int(input("First number:"))
