@@ -1,11 +1,9 @@
 #Tests a range of numbers and sorts the primes into a list
 
 primes = []
-
-print("Please enter 2 numbers to test between.")
-y = int(input("First number:"))
-z = int(input("Second number:"))
-for x in range(y, z+1):
+x = 1
+while(True):
+    x += 1
     is_prime = True
     if (x == 1 or x == 2):
         primes.append(x)
