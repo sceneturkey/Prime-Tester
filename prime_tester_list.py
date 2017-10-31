@@ -22,5 +22,5 @@ for x in range(y, z+1):
         else:
             continue
 print(primes)
-input("Press 'Enter' to close the window.")
+input("Press 'Enter' to close window.")
         
