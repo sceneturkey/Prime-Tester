@@ -1,6 +1,6 @@
 #Tests all numbers and prints all primes
 
-x = 1
+x = 0
 while(True):
     x += 1
     is_prime = True
