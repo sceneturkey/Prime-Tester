@@ -1,12 +1,11 @@
-#Tests a range of numbers and sorts the primes into a list
+#Tests all numbers and prints all primes
 
-primes = []
 x = 1
 while(True):
     x += 1
     is_prime = True
     if (x == 1 or x == 2):
-        primes.append(x)
+        print(x)
         continue
     elif (x % 2 == 0):
         continue
