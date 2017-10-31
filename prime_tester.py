@@ -19,5 +19,5 @@ for x in range(y, z+1):
             continue
         else:
             continue
-
+input("Press 'Enter' to close window")
         
