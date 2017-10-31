@@ -6,7 +6,7 @@ z = int(input("Second number:"))
 for x in range(y, z+1):
     is_prime = True
     if (x == 1 or x == 2):
-        primes.append(x)
+        print(x)
         continue
     elif (x % 2 == 0):
         continue
